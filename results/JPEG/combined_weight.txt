@@ -1,0 +1,22 @@
+(.venv) lucky@haoyunchanglaideMacBook-Pro 253 % python -m DIP.JPEG.dip_combined --input "data/self_collected/JPEG/IMG_2573.jpg" --outdir results --strength medium
+guided_tv_unsharp block=0.000397 sharp=80.27 grad=21.69
+wavelet_guided   block=0.000638 sharp=73.86 grad=28.74
+nlm_tv           block=0.000360 sharp=59.63 grad=22.21
+bilateral_tv     block=0.000372 sharp=81.08 grad=19.56
+tv_only          block=0.000305 sharp=54.69 grad=20.25
+guided_only      block=0.000529 sharp=74.94 grad=28.84
+[best by no-ref score] bilateral_tv score= 0.15005542933940885
+[saved] best_combo.png in results
+
+(.venv) lucky@haoyunchanglaideMacBook-Pro 253 % python -m DIP.JPEG.dip_classic --input "data/self_collected/JPEG/IMG_2573.jpg" --outdir results --run_all
+gaussian    saved -> results/gaussian.png
+median      saved -> results/median.png
+bilateral   saved -> results/bilateral.png
+guided      saved -> results/guided.png
+nlm         saved -> results/nlm.png
+tv          saved -> results/tv.png
+wavelet     saved -> results/wavelet.png
+[done] Outputs are in: results
+Tips:
+- Strong JPEG blocking/ringing: increase --tv_weight (e.g. 0.10~0.20) and/or run guided first.
+- Over-smoothing: decrease --tv_weight or use guided/bilateral instead.
