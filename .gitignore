@@ -14,3 +14,8 @@ __pycache__/
 *.pth
 *.pt
 results/
+
+.venv/
+venv/
+*.pth
+*.pt
