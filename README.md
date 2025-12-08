@@ -7,11 +7,10 @@ This repository contains our course project for **ECE 253 (Digital Image Process
 We study how well **modern Vision State-Space Models (VSSMs)**—specifically **XYScanNet**—restore **real-world degraded images**, compared with **classical digital image processing (DIP)** pipelines.
 
 **Focus**
-- **Primary task:** single-image **motion deblurring**
-- **Additional distortions:** **Gaussian noise** and **JPEG compression artifacts**
+- **Primary task:** single-image **motion deblurring**, **Gaussian noise** and **JPEG compression artifacts**
 - **Classical baselines:** Wiener / Richardson–Lucy deconvolution, TV regularization, guided filtering, NLM/BM3D-style denoising variants, CLAHE + sharpening, etc.
 - **Learning-based model:** **XYScanNet**, a U-Net–style restoration network built with **Vision State-Space Modules**
-- **Data:** public datasets + our **self-collected real-scene blurry dataset**
+- **Data:** public datasets(GoPro) + our **self-collected real-scene distortion dataset**
 
 **Goal**
 We want to understand when:
