@@ -30,10 +30,10 @@ ECE253/
 │   └── motion_deblur/                             # Wiener/RL/TV-based deblurring, etc.
 ├── model/                                         # XYScanNet code: training/inference/model defs
 │   ├── xyscannet/                                 # network modules (VSSM blocks, U-Net backbone)
-|   ├── xvscannetP
-|   ├── schedulers.py
-|   ├── models.py
-|   ├── networks.py
+│   ├── xvscannetP
+│   ├── schedulers.py
+│   ├── models.py
+│   ├── networks.py
 │   └── configs/                                   # hyperparams / dataset configs
 ├── data/
 │   ├── public/                                    # public datasets 
