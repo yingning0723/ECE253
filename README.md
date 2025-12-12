@@ -124,5 +124,3 @@ for evaluation:
 ```
 python -m DIP.JPEG.dip_eval --indir results/JPEG_combo --pattern "*.png"
 ```
-
-## 4. Comparisons and Discussion
