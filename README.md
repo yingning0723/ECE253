@@ -124,3 +124,6 @@ for evaluation:
 ```
 python -m DIP.JPEG.dip_eval --indir results/JPEG_combo --pattern "*.png"
 ```
+
+## 4. Additional Link for Large Data
+https://drive.google.com/drive/folders/1j1x4XM_AkVE2xuJVlcew_2_8ECxBHnAS?usp=sharing
